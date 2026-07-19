@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inmobiliaria</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Menú para movernos entre las páginas -->
+  <header class="encabezado">
+    <nav class="navegacion contenedor">
+      <a class="logo" href="index.html">D4 <span>Inmobiliaria</span></a>
+      <div class="enlaces">
+        <a href="propiedades_venta.html">En venta</a>
+        <a href="propiedades_arriendo.html">Arriendo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Portada principal del sitio -->
+    <section class="portada">
+      <div class="portada-contenido contenedor">
+        <p class="subtitulo">Tu próximo hogar comienza aquí</p>
+        <h1>Encuentra una propiedad para ti</h1>
+        <p>Conoce nuestra selección de propiedades en venta y arriendo.</p>
+      </div>
+    </section>
+
+    <!-- Aquí JavaScript agrega 3 propiedades en venta -->
+    <section class="seccion contenedor">
+      <div class="titulo-seccion">
+        <div>
+          <p class="subtitulo">Oportunidades</p>
+          <h2>Propiedades en venta</h2>
+        </div>
+        <a class="boton" href="propiedades_venta.html">Ver todas</a>
+      </div>
+      <div id="propiedades-venta" class="grilla-propiedades"></div>
+    </section>
+
+    <!-- Aquí JavaScript agrega 3 propiedades en arriendo -->
+    <section class="seccion seccion-oscura">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <div>
+            <p class="subtitulo">Disponibles ahora</p>
+            <h2>Propiedades en arriendo</h2>
+          </div>
+          <a class="boton" href="propiedades_arriendo.html">Ver todas</a>
+        </div>
+        <div id="propiedades-arriendo" class="grilla-propiedades"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="pie-pagina">
+    <p>By Sandy Cadin Azocar para DesafioLatam</p>
+  </footer>
+
+  <!-- Primero cargamos los datos y después el script de esta página -->
+  <script src="assets/js/propiedades.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
