@@ -37,13 +37,13 @@ d4-inmobiliaria/
 └── README.md
 ```
 
-## 🚀 Cómo visualizarlo
+## 🌐 GitHub Pages
 
-Abre el archivo `index.html` en tu navegador para ver la página principal.
+Puedes ver el proyecto publicado aquí:
 
-Desde el menú o los botones puedes visitar las páginas de propiedades en venta y arriendo.
+🔗 [Ver proyecto ] https://cadina-sandy.github.io/D4-inmobiliaria-js/
+🔗 [Ver repo ] https://github.com/cadina-sandy/D4-inmobiliaria-js
 
-## 👩‍💻 Autora
 
 **Sandy Cadin Azocar**  
 Desarrollado para **Desafío Latam**.
